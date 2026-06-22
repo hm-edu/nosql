@@ -1,8 +1,6 @@
 module github.com/smallstep/nosql
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.0
 
 require (
 	github.com/dgraph-io/badger v1.6.2
@@ -11,7 +9,7 @@ require (
 	github.com/jackc/pgx/v4 v4.18.3
 	github.com/pkg/errors v0.9.1
 	github.com/smallstep/assert v0.0.0-20180720014142-de77670473b5
-	go.etcd.io/bbolt v1.4.3
+	go.etcd.io/bbolt v1.5.0
 )
 
 require (
@@ -33,7 +31,7 @@ require (
 	github.com/klauspost/compress v1.12.3 // indirect
 	golang.org/x/crypto v0.20.0 // indirect
 	golang.org/x/net v0.21.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 )
